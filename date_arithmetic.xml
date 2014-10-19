@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="date_arithmetic_format.xsl"?>
+<top>
+
+<dateadd>
+ <startdate>2013-01-01</startdate>
+ <numtoadd>-9</numtoadd>
+ <dateinterval>days</dateinterval>
+</dateadd>
+
+<dateadd>
+ <startdate>2012-01-01</startdate>
+ <numtoadd>-9</numtoadd>
+ <dateinterval>days</dateinterval>
+</dateadd>
+
+<dateadd>
+ <startdate>2013-01-01</startdate>
+ <numtoadd>-1000</numtoadd>
+ <dateinterval>days</dateinterval>
+</dateadd>
+
+
+<converttoseconds>
+ <seconds>1356998400</seconds>
+</converttoseconds>
+
+<converttoseconds>
+ <seconds>1356912000</seconds>
+</converttoseconds>
+
+<converttodate>
+ <date>2013-01-01</date>
+</converttodate>
+
+<converttodate>
+ <date>2012-12-31</date>
+</converttodate>
+
+</top>
